@@ -1,0 +1,12 @@
+file_format: "1"
+id: MA
+name: ma
+type: shield
+url: https://github.com/foostan/crkbd/
+requires: [nicenanov2]
+exposes: [none]
+features:
+  - keys
+siblings:
+  - ma_left
+  - ma_right
