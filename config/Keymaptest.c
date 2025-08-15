@@ -1,0 +1,48 @@
+/*
+ * Copyright (c) 2020 The ZMK Contributors
+ *
+ * SPDX-License-Identifier: MIT
+ */
+
+#include <behaviors.dtsi>
+#include <dt-bindings/zmk/keys.h>
+#include <dt-bindings/zmk/bt.h>
+#include <dt-bindings/zmk/outputs.h>
+
+/ {
+        keymap {
+                compatible = "zmk,keymap";
+
+                first_layer {
+
+                        bindings = <
+   &kp ESC    &kp Q &kp W &kp E &kp R &kp T                        &kp Z &kp U  &kp I   &kp O   &kp P    &kp BSPC
+   &kp TAB   &kp A &kp S &kp D &kp F &kp G &kp               &kp   &kp H &kp J  &kp K   &kp L   &kp QUESTION &kp ENT
+   &kp LSHIFT   &kp Y &kp X &kp C &kp V &kp B &kp            &kp   &kp N &kp M  &kp COMMA   &kp DOT   &kp MINUS    &kp CAPS
+   &kp LCTRL   &kp LGUI &kp LALT &kp  &kp  &kp SPACE &kp     &kp   &kp SPACE &kp ALTGR  &kp RCTRL   &kp &out OUT_TOG    &mo 2    &mo 1
+
+                        >;
+                 };
+                second_layer {
+
+                        bindings = <
+   &kp W     &kp Q &kp W &kp E &kp R &kp T                 &kp Y &kp U  &kp I   &kp O   &kp P    &kp BSPC
+   &kp TAB   &kp Q &kp W &kp E &kp R &kp T &kp O    &kp P  &kp Y &kp U  &kp I   &kp O   &kp P    &kp BSPC
+   &kp TAB   &kp Q &kp W &kp E &kp R &kp T &kp O    &kp P  &kp Y &kp U  &kp I   &kp O   &kp P    &kp BSPC
+   &kp TAB   &kp Q &kp W &kp E &kp R &kp T &kp O    &kp O  &kp Y &kp U  &kp I   &kp O   &kp P    &kp BSPC
+
+                        >;
+                };
+                third_layer {
+
+                        bindings = <
+   &kp W     &kp Q &kp W &kp E &kp R &kp T                 &kp Y &kp U  &kp I   &kp O   &kp P    &kp BSPC
+   &kp TAB   &kp Q &kp W &kp E &kp R &kp T &kp O    &kp P  &kp Y &kp U  &kp I   &kp O   &kp P    &kp BSPC
+   &kp TAB   &kp Q &kp W &kp E &kp R &kp T &kp O    &kp P  &kp Y &kp U  &kp I   &kp O   &kp P    &kp BSPC
+   &kp TAB   &kp Q &kp W &kp E &kp R &kp T &kp O    &kp O  &kp Y &kp U  &kp I   &kp O   &kp P    &kp BSPC
+
+                        >;
+                };
+               
+        };
+};t
