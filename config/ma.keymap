@@ -16,10 +16,10 @@
                 first_layer {
 
                         bindings = <
-   &kp ESC      &kp Q    &kp W    &kp E  &kp R &kp T                        &kp Z     &kp U      &kp I      &kp O             &kp P        &kp BSPC
-   &kp TAB      &kp A    &kp S    &kp D  &kp F &kp G     &kp I      &kp B   &kp H     &kp J      &kp K      &kp L             &kp QMARK    &kp ENT
-   &kp LSHIFT   &kp Y    &kp X    &kp C  &kp V &kp G     &kp I      &kp B   &kp N     &kp M      &kp COMMA  &kp DOT           &kp MINUS    &kp CAPS
-   &kp LCTRL    &kp LGUI &kp LALT &kp C  &kp B &kp SPACE &kp I      &kp B   &kp SPACE &kp ALTGR  &kp RCTRL  &kp &out OUT_TOG  &mo 2        &mo 1
+   &kp ESC      &kp Q    &kp W    &kp E  &kp R &kp T                        &kp Z     &kp U      &kp I      &kp O         &kp P        &kp BSPC
+   &kp TAB      &kp A    &kp S    &kp D  &kp F &kp G     &kp I      &kp B   &kp H     &kp J      &kp K      &kp L         &kp QMARK    &kp ENT
+   &kp LSHIFT   &kp Y    &kp X    &kp C  &kp V &kp G     &kp I      &kp B   &kp N     &kp M      &kp COMMA  &kp DOT       &kp MINUS    &kp CAPS
+   &kp LCTRL    &kp LGUI &kp LALT &kp C  &kp B &kp SPACE &kp I      &kp B   &kp SPACE &kp ALTGR  &kp RCTRL  &out OUT_TOG  &mo 2        &mo 1
 
                         >;
                  };
